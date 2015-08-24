@@ -1,0 +1,13 @@
+diff --git a/RPi/RF24Network/RF24Network.cpp b/RPi/RF24Network/RF24Network.cpp
+index df116a7..eaaac2b 100644
+--- a/RPi/RF24Network/RF24Network.cpp
++++ b/RPi/RF24Network/RF24Network.cpp
+@@ -17,7 +17,7 @@
+ #include <iostream>  
+ #include <algorithm>
+ #include "RF24Network_config.h"
+-#include "../RF24/RF24.h"
++#include <RF24/RF24.h>
+ #include "RF24Network.h"
+ 
+ uint16_t RF24NetworkHeader::next_id = 1;

@@ -7,7 +7,7 @@ LIC_FILES_CHKSUM = "file://README.md;md5=77dbce41488fe3dc7d9a01b1ff91a9ae"
 
 
 SRC_URI = "git://github.com/TMRh20/RF24Network.git;branch=Development;protocol=https \
-	file://Makefile.patch"
+	file://Makefile.patch "
 
 SRCREV = "e60d6eac7ca43541f40ca55362dadd3529f59ec1"
 
